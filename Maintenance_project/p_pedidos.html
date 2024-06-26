@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style_resetcss.css">
+        <link rel="stylesheet" href="styles/style_pedidos.css">
+    </head>
+    <body>
+        <header>
+            <div class="header_section1">
+                <img class="logo1" src="images/Logo.jpg">
+            </div>
+            <div class="header_section2">
+                <h1>Pedidos especiales</h1>
+                <p>Registro de vales de pedido especial</p>
+            </div>
+        </header>
+        <table id="table_p" class="table_data">
+            <thead>
+                <tr>
+                    <th class="table_p_header">Numero de vale</th>
+                    <th class="table_p_header">Codigo</th>
+                    <th class="table_p_header">Descripcion</th>
+                    <th class="table_p_header">Justificacion</th>
+                    <th class="table_p_header">Cantidad</th>
+                    <th class="table_p_header">Linea</th>
+                    <th class="table_p_header">Requisicion</th>
+                    <th class="table_p_header">PO</th>
+                    <th class="table_p_header">Llegada</th>
+                    <th class="table_p_header">Proveedor</th>
+                    <th class="table_p_header">Solicitante</th>
+                    <th class="table_p_header">Autorizo</th>
+                    <th class="table_p_header">Avance</th>
+                    <th class="table_p_header">Comentarios</th>
+                </tr>
+            </thead id="listaPedidos">
+            <tbody id="p_table_body">
+
+            </tbody>
+            <template id="pedidosFila" >
+                <tr>
+                    <td class="data_Vale"></td>
+                    <td class="data_Codigo"></td>
+                    <td class="data_Descripcion"></td>
+                    <td class="data_Justificacion"></td>
+                    <td class="data_Cantidad"></td>
+                    <td class="data_Linea"></td>
+                    <td class="data_Requisicion"></td>
+                    <td class="data_PO"></td>
+                    <td class="data_Llegada"></td>
+                    <td class="data_Proveedor"></td>
+                    <td class="data_Solicitante"></td>
+                    <td class="data_Autorizo"></td>
+                    <td class="data_Avance"></td>
+                    <td class="data_Comentarios"></td>
+                    
+                </tr>
+            </template>
+        </table>
+
+    </body>
+    <footer>
+        <p> 
+            American Axle Manufacturing<br>
+            Guanajuato forja<br>
+            Mantenimiento
+        </p>
+    </footer>
+</html>
